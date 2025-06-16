@@ -32,3 +32,6 @@ function type() {
 document.addEventListener("DOMContentLoaded", () => {
   type();
 });
+document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('.nav-links').classList.toggle('active');
+});
